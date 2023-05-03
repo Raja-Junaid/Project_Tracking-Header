@@ -1,0 +1,11 @@
+# Ignoring Node Modules Folder
+node_modules/*
+
+# Ignoring Design Folder
+design/*
+
+# Ignoring style-guide File
+style-guide.md
+
+# Ignoring Prettierrc File
+.prettierrc
