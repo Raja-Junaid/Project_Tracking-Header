@@ -19,7 +19,7 @@
   <body>
     <!--========================= NAVBAR =========================-->
     <div class="relative container mx-auto px-10 py-10 md:px-4 md:py-12">
-      <div class="flex justify-between items-center font-style">
+      <div class="flex justify-between items-center font-style1">
         <div>
           <img src="images/logo.svg" alt="" />
         </div>
@@ -29,28 +29,31 @@
           <a href="#">Product</a>
           <a href="#">Features</a>
           <a href="#">Pricing</a>
-          <a href="#" class="text-darkGrayishBlue">&middot;</a>
-          <a href="#" class="text-darkGrayishBlue">Login</a>
+          <a href="#" class="text-grayishBlue">&middot;</a>
+          <a href="#" class="text-grayishBlue">Login</a>
         </div>
-        <div class="block md:hidden">
+        <div class="nav-hamburger md:hidden">
           <img src="images/icon-hamburger.svg" alt="" />
         </div>
-        <div class="hidden md:hidden">
+        <div class="nav-close md:hidden hidden">
           <img src="images/icon-close.svg" alt="" />
         </div>
       </div>
 
       <!-- Hamburger Menu -->
       <div
-        class="absolute hidden flex-col font-style items-center self-end uppercase tracking-wide font-semibold text-veryDarkBlue py-8 mt-10 space-y-6 bg-white border border-blue-900 sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+        class="modal absolute flex-col font-style1 z-20 text-xl items-center self-end uppercase tracking-wide font-bold text-veryDarkBlue py-8 mt-10 space-y-6 bg-white border border-gray-300 sm:w-auto sm:self-center left-6 right-6 drop-shadow-2xl md:hidden hidden"
       >
-        <a href="#">Pricing</a>
-        <a href="#">Product</a>
-        <a href="#">About Us</a>
-        <a href="#">Careers</a>
-        <a href="#">Community</a>
+      <a href="#">Product</a>
+      <a href="#">Features</a>
+      <a href="#">Pricing</a>
+      <hr class="my-12 w-60 border-grayishBlue border-1">
+      <a href="#" class="text-grayishBlue">Login</a>
       </div>
     </div>
     <!--==========================================================-->
+
+    <!--=========== JavaScript ===========-->
+    <script src="javascript/script.js"></script>
   </body>
 </html>
