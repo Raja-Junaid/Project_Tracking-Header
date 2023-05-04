@@ -16,9 +16,9 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body class="overflow-x-hidden">
     <!--========================= NAVBAR =========================-->
-    <div class="relative container mx-auto px-10 py-10 md:px-4 md:py-12">
+    <div class=" relative container mx-auto px-10 py-10 md:px-4 md:py-12">
       <div class="flex justify-between items-center font-style1">
         <div>
           <img src="images/logo.svg" alt="" />
@@ -26,11 +26,11 @@
         <div
           class="hidden space-x-10 text-lg uppercase tracking-wide font-semibold text-veryDarkBlue md:block"
         >
-          <a href="#">Product</a>
-          <a href="#">Features</a>
-          <a href="#">Pricing</a>
-          <a href="#" class="text-grayishBlue">&middot;</a>
-          <a href="#" class="text-grayishBlue">Login</a>
+          <a href="#" class='hover:underline'>Product</a>
+          <a href="#" class='hover:underline'>Features</a>
+          <a href="#" class='hover:underline'>Pricing</a>
+          <a href="#" class="text-grayishBlue hover:underline">&middot;</a>
+          <a href="#" class="text-grayishBlue hover:underline">Login</a>
         </div>
         <div class="nav-hamburger md:hidden">
           <img src="images/icon-hamburger.svg" alt="" />
@@ -50,11 +50,35 @@
       <hr class="my-12 w-60 border-grayishBlue border-1">
       <a href="#" class="text-grayishBlue">Login</a>
       </div>
+      <div class="absolute -top-4 -right-14 -z-10 rounded-s-3xl py-52 px-40 bg-lightGrayishBlue md:-top-6 md:py-60 md:px-52 md:-right-30 lg:px-80 lg:-right-40 lg:-top-20">
     </div>
     <!--==========================================================-->
 
     <!--========================= HERO SECTION =========================-->
-    
+    <section class="relative container mx-auto">
+        <div class="flex flex-col mt-16 md:flex-row-reverse
+         md:space-y-0 ">
+          <div class="w-[130%] absolute -right-32 md:w-[72%] md:mt-8 md:-mr-36">
+            <img src="images/illustration-devices.svg" alt="">
+          </div>
+          <div class="space-y-6 mt-72 md:mr-80 lg:mr-[36rem] lg:pt-10">
+            <div class="flex flex-row items-center space-x-4 font-style1">
+              <p class="px-3 py-[0.5px] font-semibold rounded-full tracking-wider bg-veryDarkBlue text-white text-lg">New</p>
+              <p class="uppercase tracking-[0.2rem] text-lg text-grayishBlue">Monograph Dashboard</p>
+            </div>
+            <div>
+            <h1 class="text-4xl w-[110%] tracking-normal font-extrabold text-left font-style2 text-veryDarkBlue uppercase lg:font-style1 lg:text-5xl lg:tracking-tight lg:leading-[50px] ">Powerful insights into your team</h1>
+            <p class="w-[96%] font-style1 text-2xl my-[20px] text-darkGrayishBlue lg:text-1xl lg:tracking-wide lg:my-6 lg:w-80">Project planning and time tracking for agile teams</p>
+            <div class="flex flex-row items-center my-6">
+              <button class="uppercase px-4 py-[9px] transition-colors ease-in-out font-medium text-base font-style1 rounded-md bg-Red text-white hover:opacity-80 lg:px-6 lg:text-lg lg:tracking-wider lg:my-4">Schedule a demo</button>
+              <p class="mx-6 uppercase text-grayishBlue text-base tracking-widest">To see a preview</p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
     <!--================================================================-->
 
     <!--=========== JavaScript ===========-->
