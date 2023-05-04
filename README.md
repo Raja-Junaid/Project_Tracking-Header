@@ -1,5 +1,6 @@
+<!-- ====================== -->
 Download Node Modules by running this command "npm i" in the terminal
-
+<!-- ====================== -->
 
 <!-- ====================== -->
 To run this project run this command "npm run start"
